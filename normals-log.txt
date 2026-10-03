@@ -1,0 +1,59 @@
+NORMALS BUILT  2026-10-03 22:44:25 UTC  from NOAA hourly water levels, 1991-2020
+
+STEP HISTORY    RC=0000  181.31s  timeout 2400 python3 -u fetch_tides.py --history
+    PUGET-TIDES HISTORY  NOAA hourly water levels 1991-2020
+      9445958 1991 no data
+      9445958 1992 no data
+      9445958 1993 no data
+      9445958 1994 no data
+      9445958 1995 no data
+      9445958 1996 no data
+      9445958 1997 no data
+      9445958 1999 no data
+      9445958 2000 no data
+      9445958 2001 no data
+      9445958 2002 no data
+      9445958 2003 no data
+      9445958 2004 no data
+      9445958 2005 no data
+      9445958 2006 no data
+      9445958 2007 no data
+      9445958 2008 no data
+      9445958 2009 no data
+      9445958 2010 no data
+      9445958 2011 no data
+      9445958 2012 no data
+      9445958 2013 no data
+      9445958 2014 no data
+      9445958 2015 no data
+      9445958 2016 no data
+      9445958 2017 no data
+      9445958 2018 no data
+      9445958 2019 no data
+      9445958 2020 no data
+      9446484 1991 no data
+      9446484 1992 no data
+      9446484 1993 no data
+      9446484 1994 no data
+      9446484 1995 no data
+      9446484 1996 no data
+      205 station-years of hourly water levels
+
+
+STEP NORMALS    RC=0004   11.35s  timeout 1800 ./normals
+    NRML000I NORMALS V1.0 STARTED
+    NRML001I FILES READ ...............      205
+    NRML002I HOURS READ ...............  1781187
+    NRML003I HOURS USED ...............  1781187
+    NRML005I Neah Bay          10916 DAYS IN  30 YEARS
+    NRML005I Port Angeles      10885 DAYS IN  30 YEARS
+    NRML005I Friday Harbor     10928 DAYS IN  30 YEARS
+    NRML005I Cherry Point      10838 DAYS IN  30 YEARS
+    NRML005I Port Townsend     10928 DAYS IN  30 YEARS
+    NRML005I Bremerton            27 DAYS IN   1 YEARS
+    NRML010W Bremerton: FEWER THAN 20 YEARS, NO NORMALS
+    NRML005I Seattle           10928 DAYS IN  30 YEARS
+    NRML005I Tacoma             8559 DAYS IN  24 YEARS
+    NRML006I NORMALS WRITTEN: normals.csv
+    NRML999I NORMALS ENDED  RC= 4
+

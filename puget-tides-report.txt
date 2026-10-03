@@ -1,0 +1,109 @@
+====================================================================================================================================
+PUGET-TIDES V1.0                            TIDES OF PUGET SOUND   NEAH BAY TO TACOMA                    RUN 2026-10-03 22:41 UTC
+NOAA CO-OPS WATER LEVELS                    FEET ABOVE MEAN LOWER LOW WATER (MLLW)   TIMES PACIFIC
+====================================================================================================================================
+
+SECTION I    THE WATER NOW    MEASURED LEVEL, PREDICTED TIDE, AND THE DIFFERENCE: THE SURGE
+
+STATION          LATEST              LEVEL    TIDE   SURGE  24-HR SURGE  VS NORMAL     PRESSURE  BAROMETER   NEXT HIGH                NEXT LOW
+                                        FT      FT      FT           FT                     HPA         FT
+------------------------------------------------------------------------------------------------------------------------------------
+Neah Bay         2026-10-03 15:30 PDT    6.16    6.12    0.04         0.12  NORMAL           1021.2      -0.26   10-03 17:59   7.3 FT     10-04 02:06  -0.4 FT     
+Port Angeles     2026-10-03 15:30 PDT    6.38    6.58   -0.21        -0.06  NORMAL           1021.0      -0.25   10-03 18:00   7.0 FT     10-04 03:49  -0.7 FT     
+Friday Harbor    2026-10-03 15:30 PDT    7.50    7.28    0.21         0.12  NORMAL           1020.5      -0.24   10-04 14:33   7.7 FT     10-04 05:27  -0.7 FT     
+Cherry Point     2026-10-03 15:30 PDT    8.36    8.03    0.33         0.10  NORMAL           1020.1      -0.22   10-03 21:18   7.6 FT     10-03 18:17   7.2 FT     
+Port Townsend    2026-10-03 15:30 PDT    7.47    7.23    0.24         0.30  ABOVE            1020.3      -0.23   10-03 20:28   7.2 FT     10-03 16:55   7.0 FT     
+Bremerton        2026-10-03 15:30 PDT    9.60    9.10    0.51         0.38                   1020.0      -0.22   10-03 22:14   9.4 FT     10-03 17:44   7.9 FT     
+Seattle          2026-10-03 15:30 PDT    9.38    8.98    0.40         0.32  ABOVE            1018.2      -0.16   10-03 22:00   9.2 FT     10-03 17:45   8.1 FT     
+Tacoma           2026-10-03 15:30 PDT    9.58    9.19    0.38         0.31  ABOVE            1019.7      -0.21   10-03 22:09   9.6 FT     10-03 17:53   8.1 FT     
+------------------------------------------------------------------------------------------------------------------------------------
+  SURGE IS WHAT THE WEATHER ADDS: WIND, AIR PRESSURE AND RIVER FLOW. BAROMETER IS THE PART LOW PRESSURE EXPLAINS, ABOUT A FOOT PER 30 HPA BELOW 1013.
+  VS NORMAL: THE 24-HOUR SURGE AGAINST EVERY DAY WITHIN 15 DAYS OF THE DATE, 1991-2020. TIDE PREDICTED BY THIS PROGRAM FROM NOAA'S CONSTITUENTS.
+
+SECTION II   HIGHS AND LOWS, NEXT TWO DAYS
+
+  Neah Bay        H 10/03 17:59  7.3 L 10/04 02:06 -0.4 H 10/04 09:20  5.4 L 10/04 13:33  4.4 H 10/04 19:28  6.9 L 10/05 03:17 -0.3
+  Port Angeles    H 10/03 18:00  7.0 L 10/04 03:49 -0.7 H 10/04 13:34  6.5 L 10/04 16:28  6.2 H 10/04 19:07  6.4 L 10/05 04:53 -0.4
+  Friday Harbor   L 10/04 05:27 -0.7 H 10/04 14:33  7.7 L 10/05 06:36 -0.3 H 10/05 15:14  7.7
+  Cherry Point    L 10/03 18:17  7.2 H 10/03 21:18  7.6 L 10/04 05:55 -0.6 H 10/04 14:26  8.9 L 10/04 20:01  6.7 H 10/04 22:57  7.0
+  Port Townsend   L 10/03 16:55  7.0 H 10/03 20:28  7.2 L 10/04 04:37 -0.7 H 10/04 13:35  8.3 L 10/04 19:25  6.5 H 10/04 22:14  6.7
+  Bremerton       L 10/03 17:44  7.9 H 10/03 22:14  9.4 L 10/04 05:50 -0.4 H 10/04 13:40 10.9 L 10/04 19:23  7.3 H 10/04 23:48  8.9
+  Seattle         L 10/03 17:45  8.1 H 10/03 22:00  9.2 L 10/04 05:29 -0.4 H 10/04 13:45 10.7 L 10/04 19:35  7.4 H 10/04 23:36  8.7
+  Tacoma          L 10/03 17:53  8.1 H 10/03 22:09  9.6 L 10/04 05:31 -0.4 H 10/04 13:46 11.1 L 10/04 19:33  7.4 H 10/04 23:44  9.1
+
+SECTION III  FORTRAN AGAINST NOAA    THIS PROGRAM'S HIGHS AND LOWS AGAINST NOAA'S PUBLISHED PREDICTIONS, NEXT 8 DAYS
+
+STATION           MATCHED   LARGEST TIME DIFFERENCE   LARGEST HEIGHT DIFFERENCE   NOT IN NOAA
+                                       MIN                          FT
+--------------------------------------------------------------------------------------------------------
+Neah Bay            33 OF 33                  0.6                       0.008             0
+Port Angeles        31 OF 31                  0.7                       0.007             0
+Friday Harbor       29 OF 29                  0.8                       0.004             0
+Cherry Point        33 OF 33                  0.7                       0.006             0
+Port Townsend       32 OF 32                  0.6                       0.007             0
+Bremerton           33 OF 33                  0.5                       0.010             0
+Seattle             33 OF 33                  0.6                       0.004             0
+Tacoma              33 OF 33                  0.7                       0.006             0
+  NOAA ROUNDS TO THE MINUTE AND THE THOUSANDTH OF A FOOT.
+
+SECTION IV   THE TIDE COMES IN    THE MAIN LUNAR TIDE (M2) FROM THE OCEAN TO THE END OF THE SOUND
+
+STATION             M2 FT   PHASE  HOURS AFTER NEAH BAY   SIZE VS NEAH BAY   GREAT RANGE FT   RECORD HIGH FT  WHEN
+------------------------------------------------------------------------------------------------------------------------------------
+Neah Bay             2.55   246.3                 0.00               1.00             7.96             12.30  1951-11-30 20:36
+Port Angeles         1.69   307.3                 2.10               0.66             7.06             10.52  2003-01-02 19:54
+Friday Harbor        1.83    10.6                 4.29               0.72             7.76             11.33  2022-12-27 22:18
+Cherry Point         2.38    22.4                 4.70               0.93             9.15             12.84  1982-12-16 15:24
+Port Townsend        2.23   349.9                 3.57               0.88             8.52             12.00  2022-12-27 21:36
+Bremerton            3.60    17.0                 4.51               1.41            11.72             15.55  2022-12-27 21:48
+Seattle              3.49    10.8                 4.30               1.37            11.36             15.12  2022-12-27 16:42
+Tacoma               3.72    11.8                 4.33               1.46            11.77             15.65  2022-12-27 21:42
+  GREAT RANGE: MEAN HIGHER HIGH TO MEAN LOWER LOW WATER, 1983-2001 NATIONAL TIDAL DATUM EPOCH.
+
+SECTION V    KING TIDES    THE HIGHEST PREDICTED TIDES OF THE NEXT 12 MONTHS, ONE PER SPELL
+
+  Neah Bay        DEC 24 11:53  10.3   JAN 22 11:50  10.2   NOV 25 12:05  10.0   JUN 06 01:31   9.6   JUL 05 01:24   9.5
+  Port Angeles    DEC 23 11:55   9.2   NOV 25 12:59   8.9   JAN 20 10:49   8.8   JUL 04 01:22   8.4   OCT 28 15:05   8.3
+  Friday Harbor   DEC 25 07:30   9.3   NOV 26 07:46   9.1   JAN 22 06:21   8.9   DEC 09 07:07   8.9   DEC 28 09:16   8.9
+  Cherry Point    DEC 26 08:09  10.8   JAN 24 07:23  10.6   NOV 27 08:31  10.6   DEC 29 09:54  10.4   DEC 23 06:06  10.3
+  Port Townsend   DEC 26 07:08  10.0   JAN 24 06:22   9.8   NOV 27 07:33   9.7   DEC 29 08:56   9.7   DEC 10 06:46   9.6
+  Bremerton       JAN 25 07:23  13.4   DEC 26 07:28  13.4   DEC 29 09:25  13.1   NOV 27 07:45  13.1   JAN 22 05:42  13.0
+  Seattle         JAN 25 07:15  13.1   DEC 26 07:22  13.0   DEC 29 09:20  12.8   NOV 27 07:39  12.7   JAN 22 05:38  12.6
+  Tacoma          JAN 25 07:18  13.4   DEC 26 07:22  13.3   DEC 29 09:24  13.0   NOV 26 06:48  13.0   FEB 22 05:58  13.0
+
+SECTION VI   MINUS TIDES IN DAYLIGHT    LOWS BELOW ZERO WHILE THE SUN IS UP, NEXT 12 MONTHS
+
+STATION          COUNT   NEXT ONE                       LOWEST
+------------------------------------------------------------------------------------------
+Neah Bay            86   2026-12-20 16:18 PST   -0.1    2027-07-04 08:05 PDT   -2.8
+Port Angeles        96   2027-02-15 16:18 PST   -0.5    2027-07-04 09:47 PDT   -3.4
+Friday Harbor      102   2027-02-14 16:53 PST   -0.2    2027-07-04 11:30 PDT   -3.4
+Cherry Point       100   2027-02-14 17:17 PST   -0.2    2027-07-04 12:01 PDT   -3.5
+Port Townsend      101   2027-02-14 16:01 PST   -0.2    2027-07-04 10:40 PDT   -3.6
+Bremerton           98   2027-03-13 14:38 PST   -0.1    2027-07-04 11:58 PDT   -3.9
+Seattle             99   2027-03-12 13:31 PST   -0.1    2027-07-04 11:36 PDT   -3.9
+Tacoma             100   2027-03-12 13:31 PST   -0.1    2027-07-04 11:38 PDT   -4.0
+  SUNRISE AND SUNSET FROM THE SUN'S POSITION, COMPUTED HERE. IN FALL AND WINTER THE LOWEST TIDES COME AT NIGHT.
+
+SECTION VII  SEA LEVEL    TREND IN MONTHLY MEAN SEA LEVEL OVER EACH STATION'S WHOLE RECORD
+
+STATION          FROM    TO   MONTHS   MM/YR   +/- 95%   INCHES/CENTURY   NOAA MM/YR   +/-
+----------------------------------------------------------------------------------------------------
+Neah Bay          1934  2026     1084   -1.68      0.25             -6.6        -1.70  0.13
+Port Angeles      1975  2026      611    0.48      0.64              1.9         0.46  0.33
+Friday Harbor     1934  2026     1075    1.20      0.23              4.7         1.19  0.13
+Cherry Point      1973  2026      644   -0.00      0.57             -0.0        -0.05  0.28
+Port Townsend     1972  2026      656    1.84      0.55              7.2         1.83  0.28
+Bremerton            0     0        0      --        --               --           --    --
+Seattle           1899  2026     1532    2.10      0.13              8.3         2.08  0.08
+Tacoma            1997  2026      350    3.29      1.30             13.0           --    --
+  LEAST SQUARES WITH A MEAN FOR EACH CALENDAR MONTH. THE UNCERTAINTY IS WIDENED FOR ONE MONTH FOLLOWING ANOTHER (AR1); NOAA'S MODEL GIVES A NARROWER ONE.
+  THE LAND MOVES TOO: THESE ARE RELATIVE SEA LEVEL, THE WATER AGAINST THE PIER.
+
+====================================================================================================================================
+MESSAGES
+  TIDE018I Bremerton: NO 1991-2020 RECORD, NO NORMALS
+  TIDE019I Bremerton: 68 MONTHLY MEANS, TOO FEW FOR A TREND
+SOURCES      NOAA CO-OPS WATER LEVELS, HARMONIC CONSTITUENTS, DATUMS AND MONTHLY MEANS
+END OF REPORT   8 STATIONS   8 WITH WATER LEVELS   RETURN CODE 0
+====================================================================================================================================
