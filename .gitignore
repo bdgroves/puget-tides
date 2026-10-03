@@ -1,0 +1,12 @@
+puget-tides
+normals
+*.mod
+*.o
+*.tmp
+water_level.csv
+pressure.csv
+monthly_mean.csv
+noaa_hilo.csv
+fetch_status.csv
+history/
+__pycache__/

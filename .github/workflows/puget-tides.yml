@@ -1,0 +1,63 @@
+name: PUGET-TIDES - Batch
+
+on:
+  schedule:
+    - cron: '23 */6 * * *'   # every six hours: 5:23 and 11:23, a.m. and p.m. PDT
+  workflow_dispatch:
+    inputs:
+      rebuild_normals:
+        description: Rebuild normals.csv from 30 years of NOAA water levels
+        type: boolean
+        default: false
+  push:
+    branches: [ main ]
+    paths: [ '*.f90', 'fetch_tides.py', 'stations.csv', 'run_job.sh', '.github/workflows/puget-tides.yml' ]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: puget-tides-batch
+  cancel-in-progress: false
+
+jobs:
+  batch:
+    runs-on: ubuntu-24.04          # pinned: GFortran 13 from Ubuntu noble
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install GFortran
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq gfortran bc > /dev/null && gfortran --version | head -1
+
+      - name: Run the batch job
+        run: ./run_job.sh ${{ inputs.rebuild_normals && '--normals' || '' }}
+
+      - name: Job log
+        if: always()
+        run: |
+          cat job-log.txt || true
+          # the key lines as annotations, so they show on the run's summary page
+          grep -E '^STEP|TIDE0[0-9]{2}[EW]|NRML0[0-9]{2}[EW]|FAILED|ENDED' job-log.txt | head -10 | sed 's/^ */::notice::/' || true
+
+      - name: Report
+        run: cat puget-tides-report.txt
+
+      - name: Warn when data were missing
+        run: |
+          rc=$(grep '^return_code,' summary.csv | cut -d, -f2)
+          if [ "$rc" != "0" ]; then
+            grep -h '^  TIDE' puget-tides-report.txt | while read -r m; do echo "::warning::$m"; done
+          fi
+
+      - name: Commit the outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add now.csv series.csv hilo.csv kingtides.csv minustides.csv travel.csv trend.csv annual.csv \
+                  summary.csv puget-tides-report.txt job-log.txt harcon.csv datums.csv noaa_trend.csv
+          for f in normals.csv normals-log.txt; do
+            [ -f "$f" ] && git add "$f"
+          done
+          if git diff --staged --quiet; then echo "Nothing changed."; exit 0; fi
+          git commit -q -m "data: PUGET-TIDES batch $(date -u '+%Y-%m-%d %H:%M') [skip ci]"
+          for i in 1 2 3; do git pull -q --rebase -X theirs && git push -q && break; sleep 5; done
