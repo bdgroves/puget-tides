@@ -234,7 +234,7 @@ footer a{color:var(--dim)}
 
 <footer>
   <div><a href="https://github.com/bdgroves/puget-tides">github.com/bdgroves/puget-tides</a> · <a href="https://brooksgroves.com/hydrology.html">More water projects</a> · <a href="https://brooksgroves.com">brooksgroves.com</a></div>
-  <div>Data: <a href="https://tidesandcurrents.noaa.gov/">NOAA Tides &amp; Currents (CO-OPS)</a> · Map © OpenStreetMap, © CARTO · Not for navigation</div>
+  <div>Data: <a href="https://tidesandcurrents.noaa.gov/">NOAA Tides &amp; Currents (CO-OPS)</a> · Map tiles © Esri, © OpenStreetMap contributors · Not for navigation</div>
 </footer>
 </div>
 
@@ -485,13 +485,13 @@ function tabs(box, list, cur, on){
     TRV.map(r => `<tr><td>${esc(r.name)}</td><td>${fmt(num(r.m2_ft), 2)}</td><td class="hi">${fmt(num(r.lag_hours), 1)}</td><td>${fmt(num(r.m2_ratio), 2)}×</td><td>${fmt(num(r.great_range_ft), 2)}</td><td>${fmt(num(r.record_high_ft), 2)}</td><td>${esc(r.record_high_when.slice(0, 10))}</td></tr>`).join('') + '</tbody>';
   try {
     const map = L.map('map', {scrollWheelZoom:false}).setView([47.95, -123.3], 8);
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {attribution:'© OpenStreetMap, © CARTO', maxZoom:12}).addTo(map);
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}', {attribution:'Tiles © Esri — Esri, HERE, Garmin, © OpenStreetMap contributors', maxZoom:16}).addTo(map);
     const pts = [];
     for (const r of TRV){
       const n = NOW.find(x => x.station === r.station) || {};
       const c = L.circleMarker([+r.lat, +r.lon], {radius:6 + 5 * +r.m2_ft, color:C.cy, weight:1.5, fillColor:C.cy, fillOpacity:.25}).addTo(map)
         .bindPopup(`<b>${esc(r.name)}</b> (NOAA ${esc(r.station)})<br>Main lunar tide ${fmt(num(r.m2_ft), 2)} ft, ${fmt(num(r.m2_ratio), 2)}× Neah Bay's<br>Arrives ${fmt(num(r.lag_hours), 1)} h after Neah Bay<br>Great range ${fmt(num(r.great_range_ft), 2)} ft${n.level_ft ? `<br>Now ${fmt(num(n.level_ft), 2)} ft, surge ${sgn(num(n.surge_ft))} ft` : ''}`);
-      c.bindTooltip(+r.lag_hours ? `+${fmt(num(r.lag_hours), 1)} h` : 'ocean', {permanent:true, direction:'right', offset:[8, 0], className:'lag'});
+      c.bindTooltip(+r.lag_hours ? `+${fmt(num(r.lag_hours), 1)} h` : 'ocean', {permanent:true, direction:r.station === '9445958' ? 'left' : 'right', offset:[r.station === '9445958' ? -8 : 8, 0], className:'lag'});
       pts.push([+r.lat, +r.lon]);
     }
     if (pts.length) map.fitBounds(pts, {padding:[30, 30]});
