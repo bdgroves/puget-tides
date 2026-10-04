@@ -1,5 +1,5 @@
 ====================================================================================================================================
-PUGET-TIDES V1.0                            TIDES OF PUGET SOUND   NEAH BAY TO TACOMA                    RUN 2026-10-04 12:29 UTC
+PUGET-TIDES V1.0                            TIDES OF PUGET SOUND   NEAH BAY TO TACOMA                    RUN 2026-10-04 21:35 UTC
 NOAA CO-OPS WATER LEVELS                    FEET ABOVE MEAN LOWER LOW WATER (MLLW)   TIMES PACIFIC
 ====================================================================================================================================
 
@@ -8,28 +8,28 @@ SECTION I    THE WATER NOW    MEASURED LEVEL, PREDICTED TIDE, AND THE DIFFERENCE
 STATION          LATEST              LEVEL    TIDE   SURGE  24-HR SURGE  VS NORMAL     PRESSURE  BAROMETER   NEXT HIGH                NEXT LOW
                                         FT      FT      FT           FT                     HPA         FT
 ------------------------------------------------------------------------------------------------------------------------------------
-Neah Bay         2026-10-04 05:24 PDT    2.58    2.53    0.05         0.12  NORMAL           1020.0      -0.22   10-04 09:20   5.4 FT     10-04 13:33   4.4 FT     
-Port Angeles     2026-10-04 05:24 PDT    0.25    0.15    0.10        -0.01  NORMAL           1019.7      -0.21   10-04 13:34   6.5 FT     10-04 16:28   6.2 FT     
-Friday Harbor    2026-10-04 05:24 PDT   -0.57   -0.72    0.16         0.14  NORMAL           1019.2      -0.20   10-04 14:33   7.7 FT     10-05 06:36  -0.3 FT     
-Cherry Point     2026-10-04 05:24 PDT   -0.51   -0.51    0.00         0.10  NORMAL           1018.7      -0.18   10-04 14:26   8.9 FT     10-04 05:55  -0.6 FT     
-Port Townsend    2026-10-04 05:24 PDT   -0.22   -0.52    0.30         0.31  ABOVE            1019.0      -0.19   10-04 13:35   8.3 FT     10-04 19:25   6.5 FT     
-Bremerton        2026-10-04 05:24 PDT   -0.08   -0.28    0.20         0.39                   1018.8      -0.18   10-04 13:40  10.9 FT     10-04 05:50  -0.4 FT     
-Seattle          2026-10-04 05:24 PDT   -0.14   -0.39    0.25         0.33  ABOVE            1017.0      -0.12   10-04 13:45  10.7 FT     10-04 05:29  -0.4 FT     
-Tacoma           2026-10-04 05:24 PDT   -0.15   -0.39    0.24         0.34  ABOVE            1018.5      -0.17   10-04 13:46  11.1 FT     10-04 05:31  -0.4 FT     
+Neah Bay         2026-10-04 14:30 PDT    4.57    4.52    0.06         0.10  NORMAL           1019.6      -0.21   10-04 19:28   6.9 FT     10-05 03:17  -0.3 FT     
+Port Angeles     2026-10-04 14:30 PDT    6.48    6.44    0.05         0.01  NORMAL           1019.0      -0.19   10-04 19:07   6.4 FT     10-04 16:28   6.2 FT     
+Friday Harbor    2026-10-04 14:30 PDT    8.02    7.72    0.31         0.15  NORMAL           1018.6      -0.18   10-05 15:14   7.7 FT     10-05 06:36  -0.3 FT     
+Cherry Point     2026-10-04 14:30 PDT    9.19    8.87    0.33         0.07  NORMAL           1018.1      -0.16   10-04 22:57   7.0 FT     10-04 20:01   6.7 FT     
+Port Townsend    2026-10-04 14:30 PDT    8.51    8.10    0.41         0.31  ABOVE            1018.4      -0.17   10-04 22:14   6.7 FT     10-04 19:25   6.5 FT     
+Bremerton        2026-10-04 14:30 PDT   11.32   10.77    0.55         0.38                   1018.5      -0.17   10-04 23:48   8.9 FT     10-04 19:23   7.3 FT     
+Seattle          2026-10-04 14:30 PDT   11.00   10.57    0.43         0.31  ABOVE            1016.6      -0.11   10-04 23:36   8.7 FT     10-04 19:35   7.4 FT     
+Tacoma           2026-10-04 14:30 PDT   11.38   10.90    0.47         0.33  ABOVE            1018.2      -0.16   10-04 23:44   9.1 FT     10-04 19:33   7.4 FT     
 ------------------------------------------------------------------------------------------------------------------------------------
   SURGE IS WHAT THE WEATHER ADDS: WIND, AIR PRESSURE AND RIVER FLOW. BAROMETER IS THE PART LOW PRESSURE EXPLAINS, ABOUT A FOOT PER 30 HPA BELOW 1013.
   VS NORMAL: THE 24-HOUR SURGE AGAINST EVERY DAY WITHIN 15 DAYS OF THE DATE, 1991-2020. TIDE PREDICTED BY THIS PROGRAM FROM NOAA'S CONSTITUENTS.
 
 SECTION II   HIGHS AND LOWS, NEXT TWO DAYS
 
-  Neah Bay        H 10/04 09:20  5.4 L 10/04 13:33  4.4 H 10/04 19:28  6.9 L 10/05 03:17 -0.3 H 10/05 10:17  5.8 L 10/05 15:31  3.9
-  Port Angeles    H 10/04 13:34  6.5 L 10/04 16:28  6.2 H 10/04 19:07  6.4 L 10/05 04:53 -0.4 H 10/05 13:45  6.4 L 10/05 18:02  5.4
-  Friday Harbor   H 10/04 14:33  7.7 L 10/05 06:36 -0.3 H 10/05 15:14  7.7 L 10/05 21:07  5.5 H 10/05 23:57  5.8
-  Cherry Point    L 10/04 05:55 -0.6 H 10/04 14:26  8.9 L 10/04 20:01  6.7 H 10/04 22:57  7.0 L 10/05 07:07 -0.2 H 10/05 15:15  9.0
-  Port Townsend   H 10/04 13:35  8.3 L 10/04 19:25  6.5 H 10/04 22:14  6.7 L 10/05 05:48 -0.2 H 10/05 14:20  8.4 L 10/05 20:08  5.6
-  Bremerton       L 10/04 05:50 -0.4 H 10/04 13:40 10.9 L 10/04 19:23  7.3 H 10/04 23:48  8.9 L 10/05 07:01 -0.0 H 10/05 14:40 11.2
-  Seattle         L 10/04 05:29 -0.4 H 10/04 13:45 10.7 L 10/04 19:35  7.4 H 10/04 23:36  8.7 L 10/05 06:42  0.1 H 10/05 14:42 11.0
-  Tacoma          L 10/04 05:31 -0.4 H 10/04 13:46 11.1 L 10/04 19:33  7.4 H 10/04 23:44  9.1 L 10/05 06:45  0.1 H 10/05 14:42 11.4
+  Neah Bay        H 10/04 19:28  6.9 L 10/05 03:17 -0.3 H 10/05 10:17  5.8 L 10/05 15:31  3.9 H 10/05 21:04  6.8 L 10/06 04:16 -0.2
+  Port Angeles    L 10/04 16:28  6.2 H 10/04 19:07  6.4 L 10/05 04:53 -0.4 H 10/05 13:45  6.4 L 10/05 18:02  5.4 H 10/05 22:18  5.9
+  Friday Harbor   L 10/05 06:36 -0.3 H 10/05 15:14  7.7 L 10/05 21:07  5.5 H 10/05 23:57  5.8 L 10/06 07:42  0.2
+  Cherry Point    L 10/04 20:01  6.7 H 10/04 22:57  7.0 L 10/05 07:07 -0.2 H 10/05 15:15  9.0 L 10/05 21:08  5.8 H 10/06 01:01  6.7
+  Port Townsend   L 10/04 19:25  6.5 H 10/04 22:14  6.7 L 10/05 05:48 -0.2 H 10/05 14:20  8.4 L 10/05 20:08  5.6 H 10/05 23:58  6.4
+  Bremerton       L 10/04 19:23  7.3 H 10/04 23:48  8.9 L 10/05 07:01 -0.0 H 10/05 14:40 11.2 L 10/05 20:41  6.2 H 10/06 01:22  8.9
+  Seattle         L 10/04 19:35  7.4 H 10/04 23:36  8.7 L 10/05 06:42  0.1 H 10/05 14:42 11.0 L 10/05 20:43  6.2 H 10/06 01:14  8.7
+  Tacoma          L 10/04 19:33  7.4 H 10/04 23:44  9.1 L 10/05 06:45  0.1 H 10/05 14:42 11.4 L 10/05 20:40  6.1 H 10/06 01:19  9.2
 
 SECTION III  FORTRAN AGAINST NOAA    THIS PROGRAM'S HIGHS AND LOWS AGAINST NOAA'S PUBLISHED PREDICTIONS, NEXT 8 DAYS
 
@@ -37,13 +37,13 @@ STATION           MATCHED   LARGEST TIME DIFFERENCE   LARGEST HEIGHT DIFFERENCE 
                                        MIN                          FT
 --------------------------------------------------------------------------------------------------------
 Neah Bay            33 OF 33                  0.6                       0.008             0
-Port Angeles        31 OF 31                  0.7                       0.007             0
-Friday Harbor       28 OF 28                  0.8                       0.004             0
-Cherry Point        32 OF 32                  0.7                       0.006             0
-Port Townsend       32 OF 32                  0.6                       0.007             0
-Bremerton           32 OF 32                  0.5                       0.010             0
-Seattle             32 OF 32                  0.6                       0.004             0
-Tacoma              32 OF 32                  0.7                       0.006             0
+Port Angeles        32 OF 32                  0.7                       0.007             0
+Friday Harbor       29 OF 29                  0.8                       0.004             0
+Cherry Point        33 OF 33                  0.7                       0.006             0
+Port Townsend       33 OF 33                  0.6                       0.007             0
+Bremerton           33 OF 33                  0.5                       0.010             0
+Seattle             33 OF 33                  0.6                       0.003             0
+Tacoma              33 OF 33                  0.7                       0.006             0
   NOAA ROUNDS TO THE MINUTE AND THE THOUSANDTH OF A FOOT.
 
 SECTION IV   THE TIDE COMES IN    THE MAIN LUNAR TIDE (M2) FROM THE OCEAN TO THE END OF THE SOUND
