@@ -1,24 +1,24 @@
-JOB PUGETIDE   2026-10-18 11:18:58 UTC
+JOB PUGETIDE   2026-10-18 15:57:48 UTC
 HOST           Linux x86_64 · GNU Fortran (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0 · Python 3.12.3
-RUN            GitHub Actions run 47 (schedule)
+RUN            GitHub Actions run 48 (schedule)
 
-STEP FETCH      RC=0000    5.28s  timeout 900 python3 -u fetch_tides.py
-    PUGET-TIDES FETCH  2026-10-18 11:18 UTC  (Pacific date 2026-10-18)
-      9443090  Neah Bay        7200 water levels, latest 2026-10-18 11:12
-      9444090  Port Angeles    7200 water levels, latest 2026-10-18 11:12
-      9449880  Friday Harbor   7200 water levels, latest 2026-10-18 11:12
-      9449424  Cherry Point    7200 water levels, latest 2026-10-18 11:12
-      9444900  Port Townsend   7200 water levels, latest 2026-10-18 11:12
-      9445958  Bremerton       7200 water levels, latest 2026-10-18 11:12
-      9447130  Seattle         7200 water levels, latest 2026-10-18 11:12
-      9446484  Tacoma          7200 water levels, latest 2026-10-18 11:12
+STEP FETCH      RC=0000    2.81s  timeout 900 python3 -u fetch_tides.py
+    PUGET-TIDES FETCH  2026-10-18 15:57 UTC  (Pacific date 2026-10-18)
+      9443090  Neah Bay        7199 water levels, latest 2026-10-18 15:48
+      9444090  Port Angeles    7199 water levels, latest 2026-10-18 15:48
+      9449880  Friday Harbor   7199 water levels, latest 2026-10-18 15:48
+      9449424  Cherry Point    7199 water levels, latest 2026-10-18 15:48
+      9444900  Port Townsend   7199 water levels, latest 2026-10-18 15:48
+      9445958  Bremerton       7199 water levels, latest 2026-10-18 15:48
+      9447130  Seattle         7199 water levels, latest 2026-10-18 15:48
+      9446484  Tacoma          7199 water levels, latest 2026-10-18 15:48
 
-STEP COMPILE    RC=0000    3.82s  gfortran -O2 -o puget-tides TIDE_PHYS.f90 PUGET-TIDES.f90
+STEP COMPILE    RC=0000    3.48s  gfortran -O2 -o puget-tides TIDE_PHYS.f90 PUGET-TIDES.f90
 
 STEP NORMALS    skipped: normals.csv is current (see normals-log.txt)
 
-STEP PUGETIDE   RC=0004    2.97s  timeout 300 ./puget-tides
-    TIDE000I PUGET-TIDES V1.0 STARTED 2026-10-18 11:18
+STEP PUGETIDE   RC=0004    2.47s  timeout 300 ./puget-tides
+    TIDE000I PUGET-TIDES V1.0 STARTED 2026-10-18 15:57
     TIDE001I STATIONS ...................   8
     TIDE002I WITH WATER LEVELS ...........   8
     TIDE003I CURRENT (UNDER 3 HOURS OLD) .   8
@@ -31,4 +31,4 @@ STEP PUGETIDE   RC=0004    2.97s  timeout 300 ./puget-tides
     TIDE019I Bremerton: 68 MONTHLY MEANS, TOO FEW FOR A TREND
     TIDE999I PUGET-TIDES V1.0 ENDED  RC= 4
 
-JOB PUGETIDE   ENDED  MAXCC=0004  12.1s
+JOB PUGETIDE   ENDED  MAXCC=0004  8.8s
