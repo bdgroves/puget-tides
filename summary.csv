@@ -1,25 +1,25 @@
 key,value
 version,PUGET-TIDES V1.0
-run_utc,2026-10-30 13:07
+run_utc,2026-10-30 22:28
 pacific_date,2026-10-30
 return_code,4
 stations,8
 stations_current,8
 stations_with_normals,7
-verify_events,254 of 256
+verify_events,249 of 251
 verify_extra_events,0
 verify_max_minutes,0.9
 verify_max_ft,0.010
-seattle_latest_utc,2026-10-30T13:00Z
-seattle_level_ft,6.70
-seattle_tide_ft,5.98
-seattle_surge_ft,0.72
-seattle_surge24_ft,0.79
+seattle_latest_utc,2026-10-30T22:18Z
+seattle_level_ft,8.70
+seattle_tide_ft,8.05
+seattle_surge_ft,0.65
+seattle_surge24_ft,0.85
 seattle_surge24_vs_normal,MUCH ABOVE
-seattle_next_high_utc,2026-10-30T16:41Z
-seattle_next_high_ft,11.82
-seattle_next_low_utc,2026-10-30T22:03Z
-seattle_next_low_ft,8.03
+seattle_next_high_utc,2026-10-31T02:32Z
+seattle_next_high_ft,10.22
+seattle_next_low_utc,2026-10-31T09:59Z
+seattle_next_low_ft,-1.97
 seattle_king_tide_utc,2027-01-25T15:15Z
 seattle_king_tide_ft,13.09
 seattle_next_daylight_minus_utc,2027-03-12T21:31Z
