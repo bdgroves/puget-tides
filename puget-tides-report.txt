@@ -1,5 +1,5 @@
 ====================================================================================================================================
-PUGET-TIDES V1.0                            TIDES OF PUGET SOUND   NEAH BAY TO TACOMA                    RUN 2026-11-13 06:54 UTC
+PUGET-TIDES V1.0                            TIDES OF PUGET SOUND   NEAH BAY TO TACOMA                    RUN 2026-11-13 19:49 UTC
 NOAA CO-OPS WATER LEVELS                    FEET ABOVE MEAN LOWER LOW WATER (MLLW)   TIMES PACIFIC
 ====================================================================================================================================
 
@@ -8,28 +8,28 @@ SECTION I    THE WATER NOW    MEASURED LEVEL, PREDICTED TIDE, AND THE DIFFERENCE
 STATION          LATEST              LEVEL    TIDE   SURGE  24-HR SURGE  VS NORMAL     PRESSURE  BAROMETER   NEXT HIGH                NEXT LOW
                                         FT      FT      FT           FT                     HPA         FT
 ------------------------------------------------------------------------------------------------------------------------------------
-Neah Bay         2026-11-12 22:48 PST    2.56    0.62    1.94         1.47  MUCH ABOVE       1004.6       0.28   11-13 03:52   5.9 FT     11-13 07:59   4.6 FT     
-Port Angeles     2026-11-12 22:48 PST    0.88   -0.82    1.71         1.24  MUCH ABOVE       1004.5       0.29   11-13 08:14   6.8 FT     11-13 10:52   6.7 FT     
-Friday Harbor    2026-11-12 22:48 PST    1.41   -0.07    1.48         1.16  MUCH ABOVE       1004.5       0.29   11-13 09:19   8.3 FT     11-13 00:22  -1.0 FT     
-Cherry Point     2026-11-12 22:48 PST    2.03    0.58    1.45         1.14  MUCH ABOVE       1004.1       0.30   11-13 09:10   9.6 FT     11-13 00:50  -1.0 FT     
-Port Townsend    2026-11-12 22:48 PST    1.05   -0.77    1.82         1.24  MUCH ABOVE       1004.3       0.29   11-13 08:27   9.0 FT     11-12 23:36  -1.1 FT     
-Bremerton        2026-11-12 22:48 PST    3.04    1.34    1.70         1.34                   1005.8       0.24   11-13 08:22  11.9 FT     11-13 00:51  -1.0 FT     
-Seattle          2026-11-12 22:48 PST    2.32    0.72    1.60         1.31  MUCH ABOVE       1004.1       0.30   11-13 08:18  11.6 FT     11-13 00:32  -1.1 FT     
-Tacoma           2026-11-12 22:48 PST    2.34    0.83    1.51         1.27  MUCH ABOVE       1006.0       0.24   11-13 08:15  12.0 FT     11-13 00:34  -1.2 FT     
+Neah Bay         2026-11-13 11:42 PST    8.65    6.56    2.09         1.84  MUCH ABOVE        995.3       0.59   11-13 13:52   7.6 FT     11-13 21:38  -0.2 FT     
+Port Angeles     2026-11-13 11:42 PST    8.78    6.73    2.05         1.70  MUCH ABOVE        995.4       0.58   11-13 13:50   7.1 FT     11-13 23:31  -0.4 FT     
+Friday Harbor    2026-11-13 11:42 PST    9.69    7.62    2.07         1.59  MUCH ABOVE        995.5       0.58   11-14 10:05   8.2 FT     11-14 01:02  -0.6 FT     
+Cherry Point     2026-11-13 11:42 PST   10.48    8.50    1.98         1.56  MUCH ABOVE        995.0       0.60   11-13 16:59   7.4 FT     11-13 14:57   7.2 FT     
+Port Townsend    2026-11-13 11:42 PST    9.53    7.66    1.87         1.67  MUCH ABOVE        995.3       0.59   11-14 09:15   8.9 FT     11-14 00:18  -0.6 FT     
+Bremerton        2026-11-13 11:42 PST   11.61    9.51    2.10         1.78                    996.8       0.54   11-13 18:05   9.3 FT     11-13 14:00   8.0 FT     
+Seattle          2026-11-13 11:42 PST   11.38    9.27    2.11         1.75  MUCH ABOVE        995.0       0.60   11-13 18:01   9.0 FT     11-13 14:07   8.0 FT     
+Tacoma           2026-11-13 11:42 PST   11.54    9.35    2.19         1.72  MUCH ABOVE        996.8       0.54   11-13 18:04   9.4 FT     11-13 14:04   8.0 FT     
 ------------------------------------------------------------------------------------------------------------------------------------
   SURGE IS WHAT THE WEATHER ADDS: WIND, AIR PRESSURE AND RIVER FLOW. BAROMETER IS THE PART LOW PRESSURE EXPLAINS, ABOUT A FOOT PER 30 HPA BELOW 1013.
   VS NORMAL: THE 24-HOUR SURGE AGAINST EVERY DAY WITHIN 15 DAYS OF THE DATE, 1991-2020. TIDE PREDICTED BY THIS PROGRAM FROM NOAA'S CONSTITUENTS.
 
 SECTION II   HIGHS AND LOWS, NEXT TWO DAYS
 
-  Neah Bay        H 11/13 03:52  5.9 L 11/13 07:59  4.6 H 11/13 13:52  7.6 L 11/13 21:38 -0.2 H 11/14 04:43  5.8 L 11/14 08:39  4.7
-  Port Angeles    H 11/13 08:14  6.8 L 11/13 10:52  6.7 H 11/13 13:50  7.1 L 11/13 23:31 -0.4 H 11/14 09:22  6.8 L 11/14 11:59  6.6
-  Friday Harbor   L 11/13 00:22 -1.0 H 11/13 09:19  8.3 L 11/14 01:02 -0.6 H 11/14 10:05  8.2
-  Cherry Point    L 11/13 00:50 -1.0 H 11/13 09:10  9.6 L 11/13 14:57  7.2 H 11/13 16:59  7.4 L 11/14 01:29 -0.5 H 11/14 09:55  9.5
-  Port Townsend   L 11/12 23:36 -1.1 H 11/13 08:27  9.0 L 11/14 00:18 -0.6 H 11/14 09:15  8.9
-  Bremerton       L 11/13 00:51 -1.0 H 11/13 08:22 11.9 L 11/13 14:00  8.0 H 11/13 18:05  9.3 L 11/14 01:32 -0.5 H 11/14 09:05 11.7
-  Seattle         L 11/13 00:32 -1.1 H 11/13 08:18 11.6 L 11/13 14:07  8.0 H 11/13 18:01  9.0 L 11/14 01:13 -0.6 H 11/14 09:01 11.4
-  Tacoma          L 11/13 00:34 -1.2 H 11/13 08:15 12.0 L 11/13 14:04  8.0 H 11/13 18:04  9.4 L 11/14 01:16 -0.6 H 11/14 08:59 11.7
+  Neah Bay        H 11/13 13:52  7.6 L 11/13 21:38 -0.2 H 11/14 04:43  5.8 L 11/14 08:39  4.7 H 11/14 14:30  7.2 L 11/14 22:21  0.2
+  Port Angeles    H 11/13 13:50  7.1 L 11/13 23:31 -0.4 H 11/14 09:22  6.8 L 11/14 11:59  6.6 H 11/14 14:09  6.8 L 11/15 00:16 -0.0
+  Friday Harbor   L 11/14 01:02 -0.6 H 11/14 10:05  8.2 L 11/15 01:44 -0.2 H 11/15 10:48  8.0
+  Cherry Point    L 11/13 14:57  7.2 H 11/13 16:59  7.4 L 11/14 01:29 -0.5 H 11/14 09:55  9.5 L 11/15 02:12 -0.0 H 11/15 10:40  9.3
+  Port Townsend   L 11/14 00:18 -0.6 H 11/14 09:15  8.9 L 11/15 01:04 -0.0 H 11/15 10:00  8.8
+  Bremerton       L 11/13 14:00  8.0 H 11/13 18:05  9.3 L 11/14 01:32 -0.5 H 11/14 09:05 11.7 L 11/14 14:54  7.9 H 11/14 18:51  8.8
+  Seattle         L 11/13 14:07  8.0 H 11/13 18:01  9.0 L 11/14 01:13 -0.6 H 11/14 09:01 11.4 L 11/14 15:11  7.8 H 11/14 18:48  8.5
+  Tacoma          L 11/13 14:04  8.0 H 11/13 18:04  9.4 L 11/14 01:16 -0.6 H 11/14 08:59 11.7 L 11/14 15:05  7.9 H 11/14 18:51  8.8
 
 SECTION III  FORTRAN AGAINST NOAA    THIS PROGRAM'S HIGHS AND LOWS AGAINST NOAA'S PUBLISHED PREDICTIONS, NEXT 8 DAYS
 
@@ -37,7 +37,7 @@ STATION           MATCHED   LARGEST TIME DIFFERENCE   LARGEST HEIGHT DIFFERENCE 
                                        MIN                          FT
 --------------------------------------------------------------------------------------------------------
 Neah Bay            33 OF 33                  0.6                       0.010             0
-Port Angeles        26 OF 26                  1.0                       0.011             0
+Port Angeles        27 OF 27                  1.0                       0.011             0
 Friday Harbor       21 OF 21                  0.6                       0.004             0
 Cherry Point        27 OF 27                  0.7                       0.006             0
 Port Townsend       25 OF 25                  0.8                       0.008             0
@@ -89,14 +89,14 @@ SECTION VII  SEA LEVEL    TREND IN MONTHLY MEAN SEA LEVEL OVER EACH STATION'S WH
 
 STATION          FROM    TO   MONTHS   MM/YR   +/- 95%   INCHES/CENTURY   NOAA MM/YR   +/-
 ----------------------------------------------------------------------------------------------------
-Neah Bay          1934  2026     1085   -1.67      0.25             -6.6         1.90  0.18
-Port Angeles      1975  2026      613    0.51      0.64              2.0         1.90  0.18
-Friday Harbor     1934  2026     1077    1.21      0.23              4.8         1.90  0.18
-Cherry Point      1973  2026      646    0.03      0.57              0.1         1.90  0.18
-Port Townsend     1972  2026      658    1.86      0.55              7.3         1.90  0.18
-Bremerton            0     0        0      --        --               --         1.90  0.18
-Seattle           1899  2026     1534    2.11      0.13              8.3         1.90  0.18
-Tacoma            1997  2026      351    3.34      1.30             13.2         1.90  0.18
+Neah Bay          1934  2026     1085   -1.67      0.25             -6.6         5.05  0.23
+Port Angeles      1975  2026      613    0.51      0.64              2.0         5.05  0.23
+Friday Harbor     1934  2026     1077    1.21      0.23              4.8         2.74  0.10
+Cherry Point      1973  2026      646    0.03      0.57              0.1         5.05  0.23
+Port Townsend     1972  2026      658    1.86      0.55              7.3         2.74  0.10
+Bremerton            0     0        0      --        --               --         2.74  0.10
+Seattle           1899  2026     1534    2.11      0.13              8.3         2.74  0.10
+Tacoma            1997  2026      351    3.34      1.30             13.2         2.74  0.10
   LEAST SQUARES WITH A MEAN FOR EACH CALENDAR MONTH. THE UNCERTAINTY IS WIDENED FOR ONE MONTH FOLLOWING ANOTHER (AR1); NOAA'S MODEL GIVES A NARROWER ONE.
   THE LAND MOVES TOO: THESE ARE RELATIVE SEA LEVEL, THE WATER AGAINST THE PIER.
 
